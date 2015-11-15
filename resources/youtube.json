@@ -1,4 +1,209 @@
 [
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/_azLfVgrAIhKkim3z66B4zKqbUo\"",
+    "id": "UUvnkVOnba-5xkgB-GEnoyyazCYTOFl1NL",
+    "snippet": {
+      "publishedAt": "2015-11-14T19:52:13.000Z",
+      "channelId": "UCCBVCTuk6uJrN3iFV_3vurg",
+      "title": "115 batshit stupid things you can put on the internet in as fast as I can go, somebody get me a drink by Dan Tentler",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/hMtu7vV_HmY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/hMtu7vV_HmY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/hMtu7vV_HmY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Devoxx 2015",
+      "playlistId": "UUCBVCTuk6uJrN3iFV_3vurg",
+      "position": 0,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "hMtu7vV_HmY"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/kbdHOPzocUcIn_5RSZT-WjwQv1o\"",
+    "id": "UUvnkVOnba-5zX7rU-qRgqDOQ1_kXegG2j",
+    "snippet": {
+      "publishedAt": "2015-11-14T19:37:15.000Z",
+      "channelId": "UCCBVCTuk6uJrN3iFV_3vurg",
+      "title": "The Intelligence of your Things by Amy Nicholson",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/rFNnRgv8NEM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/rFNnRgv8NEM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/rFNnRgv8NEM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/rFNnRgv8NEM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/rFNnRgv8NEM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Devoxx 2015",
+      "playlistId": "UUCBVCTuk6uJrN3iFV_3vurg",
+      "position": 2,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "rFNnRgv8NEM"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/TjpQgTUpVIGA59xhXNKcwnVUxWA\"",
+    "id": "UUvnkVOnba-5xZQSqObTEYrTSrgJaXPXOY",
+    "snippet": {
+      "publishedAt": "2015-11-14T19:36:14.000Z",
+      "channelId": "UCCBVCTuk6uJrN3iFV_3vurg",
+      "title": "keynotesession by Dr Lawrence Krauss",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/T-Kf2dR_SrQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/T-Kf2dR_SrQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/T-Kf2dR_SrQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/T-Kf2dR_SrQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/T-Kf2dR_SrQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Devoxx 2015",
+      "playlistId": "UUCBVCTuk6uJrN3iFV_3vurg",
+      "position": 3,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "T-Kf2dR_SrQ"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/zJ6Cet2O428B-l0zvHj7R8mLUdc\"",
+    "id": "UUvnkVOnba-5zAdDzhA7QbmXze4zmONVdD",
+    "snippet": {
+      "publishedAt": "2015-11-14T19:37:15.000Z",
+      "channelId": "UCCBVCTuk6uJrN3iFV_3vurg",
+      "title": "Redefining PaaS: Managed container based microservices on Google App Engine by Ludovic Champenois/Amanda Waite",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/aKUlu9-psZo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/aKUlu9-psZo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/aKUlu9-psZo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Devoxx 2015",
+      "playlistId": "UUCBVCTuk6uJrN3iFV_3vurg",
+      "position": 4,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "aKUlu9-psZo"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/ObSDQt5PD9zq276ZNUaYQuG9XwM\"",
+    "id": "UUvnkVOnba-5xovr-hHyqubF7x0kKxlYpw",
+    "snippet": {
+      "publishedAt": "2015-11-14T19:37:15.000Z",
+      "channelId": "UCCBVCTuk6uJrN3iFV_3vurg",
+      "title": "Keynote session by Stephan Janssen",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Nv0t_K3415o/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Nv0t_K3415o/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Nv0t_K3415o/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Nv0t_K3415o/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Nv0t_K3415o/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Devoxx 2015",
+      "playlistId": "UUCBVCTuk6uJrN3iFV_3vurg",
+      "position": 5,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "Nv0t_K3415o"
+      }
+    }
+  },
     {
         "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/Ij5HwLRwG2KBgYooSLaS-BIpiAE\"",
         "id": "UUvnkVOnba-5zRF-MJ8DPxbjrysuXlAoVT",
@@ -221,7 +426,7 @@
                     "width": 640
                 }
             },
-            "title": "HTTP 2 0 & Java: Current Status by Simone Bordet"
+            "title": "HTTP 2.0 & Java: Current Status by Simone Bordet"
         }
     },
     {
@@ -446,7 +651,7 @@
                     "width": 640
                 }
             },
-            "title": "REST no more, use an actor and (Lego and Raspberry Pi\u2019s ) by Johan Janssen & Willem Meints"
+            "title": "REST no more, use an actor (and Lego and Raspberry Pi’s…) by Johan Janssen & Willem Meints"
         }
     },
     {
@@ -1551,7 +1756,7 @@
                     "width": 640
                 }
             },
-            "title": "Java Generics: Past, Present and Futurit by Richard Warburton/Raoul-Gabriel Urma"
+            "title": "Java Generics: Past, Present and Future by Richard Warburton/Raoul-Gabriel Urma"
         }
     },
     {
@@ -2361,7 +2566,7 @@
                     "width": 640
                 }
             },
-            "title": "From object oriented to functional domain modeling by Mario Fusco"
+            "title": "From object oriented to functional domain modelling by Mario Fusco"
         }
     },
     {
@@ -4651,7 +4856,7 @@
                     "width": 640
                 }
             },
-            "title": "Shooting the Rapids by Maurice Naftalin/Kirk Pepperdine"
+            "title": "Shooting the Rapids: Maximizing the Performance of Java 8 Streams by Maurice Naftalin/Kirk Pepperdine"
         }
     },
     {
@@ -4966,7 +5171,7 @@
                     "width": 640
                 }
             },
-            "title": "The UI Scripting Language Shootout by Michael Heinrichs"
+            "title": "The UI Scripting Language Shootout: EcmaScript 2015 vs. TypeScript vs. CoffeeScript by Michael Heinrichs"
         }
     },
     {
@@ -5371,7 +5576,7 @@
                     "width": 640
                 }
             },
-            "title": "Swimming upstream in the container revolution by Bert Jan Schrijver"
+            "title": "Swimming upstream in the container revolution: Containerless Continuous Delivery by Bert Jan Schrijver"
         }
     },
     {
@@ -5461,7 +5666,7 @@
                     "width": 640
                 }
             },
-            "title": "Open Source Workflows, Business Rules and Case Management live and in action by Bernd R\u00fccker"
+            "title": "Open Source Workflows, Business Rules and Case Management live and in action – with Camunda BPM by Bernd R\u00fccker"
         }
     },
     {
@@ -6091,7 +6296,7 @@
                     "width": 640
                 }
             },
-            "title": "Ruby 9000 by Charles Nutter"
+            "title": "JRuby 9000 by Charles Nutter"
         }
     },
     {
@@ -6271,7 +6476,7 @@
                     "width": 640
                 }
             },
-            "title": "Reflection No Reflection by St\u00e9phane Nicolas"
+            "title": "Reflection No Reflection : Boosting performance on Android by bypassing Reflection API by St\u00e9phane Nicolas"
         }
     },
     {

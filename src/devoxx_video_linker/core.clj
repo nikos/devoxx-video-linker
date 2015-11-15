@@ -38,6 +38,6 @@
     (println)
     (printf "%d unmatched talks without video ...\n\n" (count t2v-without-videos))
     (doseq [entry t2v-without-videos]
-      (printf " * '%s' (%s)\n" ((:talk entry) "title") ((:talk entry) "id")))
+      (printf " * [%6s] '%s' (%s)\n" (get-in (:talk entry) ["talkType" "id"]) ((:talk entry) "title") ((:talk entry) "id") ))
 
     ))
