@@ -1,6 +1,41 @@
 [
   {
     "kind": "youtube#playlistItem",
+    "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/xU59Zk21WKDDbGwtabk8gI59fuA\"",
+    "id": "UUvnkVOnba-5xZkTKT0aedlXCykQ-zh1JF",
+    "snippet": {
+      "publishedAt": "2015-11-16T16:05:00.000Z",
+      "channelId": "UCCBVCTuk6uJrN3iFV_3vurg",
+      "title": "Providing Eyes, Ears, and a Mouth to Your IoT Project by Vinicius Senger and Yara Senger",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/6aXLZ109AG0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/6aXLZ109AG0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/6aXLZ109AG0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Devoxx 2015",
+      "playlistId": "UUCBVCTuk6uJrN3iFV_3vurg",
+      "position": 0,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "6aXLZ109AG0"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
     "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/_azLfVgrAIhKkim3z66B4zKqbUo\"",
     "id": "UUvnkVOnba-5xkgB-GEnoyyazCYTOFl1NL",
     "snippet": {
