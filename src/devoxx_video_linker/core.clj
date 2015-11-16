@@ -1,5 +1,6 @@
 (ns devoxx-video-linker.core
-  (:require [cheshire.core :as json])
+  (:require [cheshire.core :as json]
+            [clj-http.client :as client])
   (:gen-class))
 
 (defn read-youtube-videos
@@ -32,12 +33,16 @@
     (printf "%d youtube videos\n" (count videos))
     (printf "%d matched talks with videos ...\n\n" (count t2v-with-videos))
     (doseq [entry t2v-with-videos]
-      (printf "Talk ID:%s, Video: %s\n" ((:talk entry) "id") (get-in (first (:videos entry)) ["snippet" "resourceId" "videoId"])))
+      (let [talkId ((:talk entry) "id")
+            youtubeURL (get-in (first (:videos entry)) ["snippet" "resourceId" "videoId"])]
+        ;;(printf "Talk ID:%s, Video: %s\n" talkId youtubeURL)
+        ;; TODO: Once https://bitbucket.org/nschmuck/devoxx-vote-api gets merged and deployed, we should be able to
+        (client/put "http://requestb.in/1k0ohpe1" {:form-params {:talkId talkId :youtubeURL youtubeURL} :content-type :json})
+        ))
 
     ;; ~~
     (println)
     (printf "%d unmatched talks without video ...\n\n" (count t2v-without-videos))
     (doseq [entry t2v-without-videos]
-      (printf " * [%6s] '%s' (%s)\n" (get-in (:talk entry) ["talkType" "id"]) ((:talk entry) "title") ((:talk entry) "id") ))
-
+      (printf " * [%6s] '%s' (%s)\n" (get-in (:talk entry) ["talkType" "id"]) ((:talk entry) "title") ((:talk entry) "id")))
     ))
