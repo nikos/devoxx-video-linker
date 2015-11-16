@@ -1,37 +1,37 @@
 # devoxx-video-linker
 
-Matching the youtube videos in the Devoxx channel with the talks
+Matching the conference talks from [Devoxx 2015](http://cfp.devoxx.be/2015/index.html) with the uploaded
+YouTube videos in the [Devoxx 2015 channel](https://www.youtube.com/channel/UCCBVCTuk6uJrN3iFV_3vurg).
 
+It is a small script which simply matches on the conference title, note that since the YouTube video
+titles are not completely consistent with the talk titles, I decided to fix this manually in the JSON
+representation (see resources/youtube.json).
 
 ## Installation
 
-Download from http://example.com/FIXME.
+The script is based on Clojure and therefore is executed in your favorite JVM at hand.
+It requires leiningen to be installed on your computer for compiling and executing the script.
+
 
 ## Usage
 
-FIXME: explanation
+From the command-line
 
-    $ java -jar devoxx-video-linker-0.1.0-standalone.jar [args]
+    $ lein run
 
-## Options
 
-FIXME: listing of options this app accepts.
+## Notes about the static resources
 
-## Examples
+To retrieve the list of all accepted talks at the conference the [Devoxx BE REST API](http://cfp.devoxx.be/api) was used.
 
-...
+The list of available YouTube playlist items in the channel was retrieved via:
 
-### Bugs
+    curl https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=UUCBVCTuk6uJrN3iFV_3vurg&key={YOUR_API_KEY}
 
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
 
-Copyright © 2015 FIXME
+Copyright © 2015 Niko Schmuck
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
