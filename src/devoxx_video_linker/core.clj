@@ -34,10 +34,12 @@
     (printf "%d matched talks with videos ...\n\n" (count t2v-with-videos))
     (doseq [entry t2v-with-videos]
       (let [talkId ((:talk entry) "id")
-            youtubeURL (get-in (first (:videos entry)) ["snippet" "resourceId" "videoId"])]
+            videoId (get-in (first (:videos entry)) ["snippet" "resourceId" "videoId"])
+            youtubeURL (format "https://www.youtube.com/watch?v=%s" videoId)]
         ;;(printf "Talk ID:%s, Video: %s\n" talkId youtubeURL)
         ;; TODO: Once https://bitbucket.org/nschmuck/devoxx-vote-api gets merged and deployed, we should be able to
-        (client/put "http://requestb.in/1k0ohpe1" {:form-params {:talkId talkId :youtubeURL youtubeURL} :content-type :json})
+        (client/put "http://requestb.in/1b8ha2t1" {:form-params {:talkId talkId :youtubeURL youtubeURL}})
+        ;;(client/put (format "https://api-voting.devoxx.com/DV15/talk/%s/youtubeURL" talkId) {:form-params {:youtubeURL youtubeURL}})
         ))
 
     ;; ~~
