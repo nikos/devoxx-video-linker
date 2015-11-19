@@ -23,6 +23,14 @@ From the command-line
 ## Notes about the static resources
 
 To retrieve the list of all accepted talks at the conference the [Devoxx BE REST API](http://cfp.devoxx.be/api) was used.
+More information about talks can be queried via:
+
+    curl http://cfp.devoxx.be/api/conferences/DV15/talks
+    curl http://cfp.devoxx.be/api/conferences/DV15/talks/{talk-id}
+
+The talks are mirrored in a dedicated PostgreSQL database for voting purposes and can be retrieved with:
+
+    curl https://api-voting.devoxx.com/DV15/talk/{talk-id}
 
 The list of available YouTube playlist items in the channel was retrieved via:
 
